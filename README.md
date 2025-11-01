@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+🕹️ Tic-Tac-Toe Game (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A fun and responsive Tic-Tac-Toe game built with React Native and Expo, featuring smooth UI, win/draw sounds, and instant game logic updates.
 
-## Get started
 
-1. Install dependencies
+🚀 Features
 
-   ```bash
-   npm install
-   ```
+🎯 Two-player mode — play as X or O
 
-2. Start the app
+🧠 Instant win detection — game declares winner immediately
 
-   ```bash
-   npx expo start
-   ```
+🔊 Sound effects for win and draw outcomes
 
-In the output, you'll find options to open the app in a
+💫 Smooth UI with animations and feedback
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🔁 Restart button to start a new match
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📱 Responsive design for Android & iOS
 
-## Get a fresh project
 
-When you're ready, run:
+🛠️ Tech Stack
+Category	Tools / Libraries
+Framework	React Native
 
-```bash
-npm run reset-project
-```
+Platform	Expo
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Sound	expo-av
 
-## Learn more
+UI Components	react-native-paper
 
-To learn more about developing your project with Expo, look at the following resources:
+Icons	Custom Icons component (X / O render)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+⚙️ Installation
 
-## Join the community
+1️⃣ Clone the repository
 
-Join our community of developers creating universal apps.
+git clone https://github.com/your-username/tic-tac-toe-react-native.git
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+cd tic-tac-toe-react-native
+
+2️⃣ Install dependencies
+
+npm install
+
+3️⃣ Run the app
+
+npx expo start
+
+Then press:
+
+a to open Android emulator
+
+i to open iOS simulator
+
+or scan the QR code in Expo Go (on your phone)
+
+
+Made with ❤️ by Yash Tiwari
+
